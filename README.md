@@ -3,7 +3,7 @@
 Учебный проект по семантической и адаптивной вёрстке. В проекте будут две страницы макета Talking Travel: главная и статья блога. Используются только HTML и CSS.
 
 - [Макет в Figma](https://www.figma.com/design/xC3VHAMZNq9Nm9x2TgnHei/Locofy-Sample-Project---Talking-Travel--Community-)
-- Опубликованная версия: будет добавлена после публикации через GitHub Pages.
+- Опубликованная версия: [nogod3.github.io/WebDesign1Lab](https://nogod3.github.io/WebDesign1Lab/)
 
 ## Структура проекта
 
