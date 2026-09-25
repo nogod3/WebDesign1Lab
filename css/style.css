@@ -815,6 +815,71 @@ ul {
   margin: 0;
 }
 
+.article {
+  padding-top: var(--space-8);
+}
+
+.article-header {
+  display: grid;
+  gap: var(--space-5);
+  margin-bottom: var(--space-7);
+}
+
+.article-header h1 {
+  margin-bottom: 0;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.author img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.author p {
+  display: grid;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.author strong {
+  font-size: 0.9rem;
+}
+
+.author span {
+  color: var(--color-muted);
+  font-size: 0.75rem;
+}
+
+.article-hero {
+  position: relative;
+  margin-bottom: var(--space-8);
+  overflow: hidden;
+  border-radius: var(--radius-l);
+  isolation: isolate;
+}
+
+.article-hero::after {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, transparent 42%, rgb(31 30 38 / 0.54));
+  content: "";
+}
+
+.article-hero > img {
+  width: 100%;
+  min-height: 26rem;
+  max-height: 44rem;
+  object-fit: cover;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
