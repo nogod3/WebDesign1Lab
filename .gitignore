@@ -7,7 +7,8 @@ node_modules/
 # Local files used while inspecting the reference layout
 edge-profile/
 edge-profile2/
-inspect-figma.mjs
+inspect-figma*.mjs
+captured-assets/
 figma-*.png
 figma-design.html
 community.html
@@ -16,4 +17,3 @@ locofy-*.html
 locofy-main.js
 talkingtravel-*.png
 talkingtravel-*.jpg
-
