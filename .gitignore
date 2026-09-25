@@ -1,0 +1,19 @@
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
+
+# Local files used while inspecting the reference layout
+edge-profile/
+edge-profile2/
+inspect-figma.mjs
+figma-*.png
+figma-design.html
+community.html
+grida.html
+locofy-*.html
+locofy-main.js
+talkingtravel-*.png
+talkingtravel-*.jpg
+
