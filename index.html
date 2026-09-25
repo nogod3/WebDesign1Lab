@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Talking Travel community stories, destinations and travel inspiration.">
+  <title>Talking Travel — Community</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Changa+One:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="logo" href="./index.html" aria-label="Talking Travel home">
+        <span class="logo__mark" aria-hidden="true">T</span>
+        <span>Talking Travel</span>
+      </a>
+
+      <nav class="site-nav site-nav--desktop" aria-label="Main navigation">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link is-active" href="./index.html" aria-current="page">Home</a></li>
+          <li><a class="site-nav__link" href="./blog.html">Story</a></li>
+          <li><a class="site-nav__link" href="#gallery">Gallery</a></li>
+          <li><a class="site-nav__link" href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-header__actions" aria-label="Quick actions">
+        <a class="icon-link" href="#search" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+        </a>
+        <a class="avatar-link" href="#profile" aria-label="Open profile"><img src="./img/author.jpg" alt="" width="320" height="480"></a>
+      </div>
+
+      <details class="mobile-menu">
+        <summary aria-label="Open navigation"><span></span><span></span><span></span></summary>
+        <nav aria-label="Mobile navigation">
+          <ul>
+            <li><a href="./index.html" aria-current="page">Home</a></li>
+            <li><a href="./blog.html">Story</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__layout">
+        <div class="hero__media">
+          <img src="./img/hero-coast.jpg" alt="Traveler jumping from a rocky coast into the sea" width="2880" height="1921">
+        </div>
+        <div class="hero__card">
+          <p class="eyebrow">Let’s explore</p>
+          <h1 id="hero-title">Let’s talk about <em>your next trip!</em></h1>
+          <p>Share your favorite travel destination and we will feature it in our next blog.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#share-story">Share your story</a>
+            <a class="play-link" href="#highlights"><span aria-hidden="true">▶</span> Watch highlights</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured section" aria-labelledby="featured-title">
+      <div class="container split-layout">
+        <div class="section-copy">
+          <p class="eyebrow">Popular destinations</p>
+          <h2 id="featured-title">Discover a place that feels made for you</h2>
+          <p>Follow real routes, local details and honest notes shared by people who have already been there.</p>
+          <a class="text-link" href="./blog.html">Read the latest story <span aria-hidden="true">→</span></a>
+        </div>
+        <figure class="map-card">
+          <img src="./img/travel-map.png" alt="Travel route connecting three community members" width="1441" height="865">
+          <figcaption>Travel ideas from the community</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="destinations section section--tint" id="gallery" aria-labelledby="destinations-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Find your next story</p>
+            <h2 id="destinations-title">Explore new horizons</h2>
+          </div>
+          <p>Snowy peaks, quiet streets and coastal villages — choose a mood and start planning.</p>
+        </div>
+        <ul class="destination-grid">
+          <li>
+            <article class="destination-card destination-card--tall">
+              <img src="./img/green-valley.jpg" alt="Green terraced fields in a mountain valley" width="522" height="782" loading="lazy">
+              <div class="destination-card__body"><p>Switzerland</p><h3>Slow mornings in the Alps</h3></div>
+            </article>
+          </li>
+          <li>
+            <article class="destination-card">
+              <img src="./img/kyoto.jpg" alt="Traditional street in Kyoto at dusk" width="480" height="320" loading="lazy">
+              <div class="destination-card__body"><p>Japan</p><h3>Kyoto after sunset</h3></div>
+            </article>
+          </li>
+          <li>
+            <article class="destination-card">
+              <img src="./img/lofoten.jpg" alt="Red houses beside snowy mountains in Lofoten" width="480" height="320" loading="lazy">
+              <div class="destination-card__body"><p>Norway</p><h3>Winter light in Lofoten</h3></div>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="community section" id="highlights" aria-labelledby="community-title">
+      <div class="container community__layout">
+        <div class="community__collage" aria-label="Travel photographs">
+          <img class="community__photo community__photo--main" src="./img/swiss-peaks.jpg" alt="Snow-covered Swiss mountain range" width="954" height="636" loading="lazy">
+          <img class="community__photo community__photo--small" src="./img/cable-car.jpg" alt="Cable car above the mountains" width="693" height="462" loading="lazy">
+        </div>
+        <div class="section-copy">
+          <p class="eyebrow">Travel together</p>
+          <h2 id="community-title">Real places. Real people. Real stories.</h2>
+          <p>Talking Travel is a community for people who collect moments rather than checklists. Every guide begins with a personal experience.</p>
+          <blockquote>“The best advice comes from someone who has walked the same path.”</blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-form section section--tint" id="share-story" aria-labelledby="story-form-title">
+      <div class="container story-form__layout">
+        <div class="section-copy">
+          <p class="eyebrow">Your turn</p>
+          <h2 id="story-form-title">Tell us about your journey</h2>
+          <p>Send a short idea for a story and tell us which photographs you want to share.</p>
+        </div>
+        <form class="story-form__card" action="#submitted">
+          <div class="field-row">
+            <label>First name<input type="text" name="first-name" autocomplete="given-name" placeholder="Jane"></label>
+            <label>Last name<input type="text" name="last-name" autocomplete="family-name" placeholder="Cooper"></label>
+          </div>
+          <label>Email address<input type="email" name="email" autocomplete="email" placeholder="jane@example.com"></label>
+          <label>Shooting category
+            <select name="category">
+              <option>Landscape photography</option>
+              <option>City and architecture</option>
+              <option>People and culture</option>
+            </select>
+          </label>
+          <label>Describe what kind of photos you want to focus on<textarea name="message" rows="4" placeholder="Tell us a little about your idea"></textarea></label>
+          <button class="button button--primary" type="submit">Submit story</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="recent-stories section" aria-labelledby="recent-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Catch up to our posts</p>
+            <h2 id="recent-title">Recent story entries</h2>
+          </div>
+          <a class="text-link" href="./blog.html">View all stories <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="story-grid">
+          <article class="story-card story-card--featured">
+            <img src="./img/matterhorn.jpg" alt="Traveler facing the Matterhorn" width="920" height="613" loading="lazy">
+            <div class="story-card__body">
+              <p class="story-card__meta">Zermatt, Switzerland</p>
+              <h3><a href="./blog.html">The mountain that made us stop and look</a></h3>
+              <p>A week of quiet trails, bright snow and lessons from the people we met along the way.</p>
+            </div>
+          </article>
+          <div class="story-list">
+            <article class="story-card story-card--compact">
+              <img src="./img/tuscany.jpg" alt="Golden hills and vineyards in Tuscany" width="320" height="480" loading="lazy">
+              <div class="story-card__body"><p class="story-card__meta">Tuscany, Italy</p><h3><a href="./blog.html">A road through the vineyards</a></h3><time datetime="2026-05-18">18 May 2026</time></div>
+            </article>
+            <article class="story-card story-card--compact">
+              <img src="./img/kyoto.jpg" alt="Traditional wooden houses in Kyoto" width="480" height="320" loading="lazy">
+              <div class="story-card__body"><p class="story-card__meta">Kyoto, Japan</p><h3><a href="./blog.html">Finding calm in a busy city</a></h3><time datetime="2026-05-04">4 May 2026</time></div>
+            </article>
+            <article class="story-card story-card--compact">
+              <img src="./img/lofoten.jpg" alt="Lofoten fishing village surrounded by snow" width="480" height="320" loading="lazy">
+              <div class="story-card__body"><p class="story-card__meta">Lofoten Islands, Norway</p><h3><a href="./blog.html">Chasing the northern light</a></h3><time datetime="2026-04-23">23 April 2026</time></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container site-footer__top">
+      <a class="logo logo--light" href="./index.html"><span class="logo__mark" aria-hidden="true">T</span><span>Talking Travel</span></a>
+      <nav aria-label="Footer navigation">
+        <ul class="site-footer__links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="mailto:hello@talkingtravel.example">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container site-footer__bottom"><p>© 2026, Talking Travel. All Rights Reserved.</p><p>Made for people who love the road.</p></div>
+  </footer>
+</body>
+</html>
